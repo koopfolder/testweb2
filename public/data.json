@@ -1,0 +1,35 @@
+[{
+    "lat": "26.268867",
+    "lng": "50.625225",
+    "name": "Bahrain International Airport",
+    "description": "Bahrain International Airport",
+    "icon": "images/icon-map-1.png"
+},
+{
+    "lat": "26.2413033",
+    "lng": "50.5623481",
+    "name": "Reef Island",
+    "description": "Reef Island",
+    "icon": "images/icon-map-1.png"
+},
+{
+    "lat": "26.232282",
+    "lng": "50.553977",
+    "name": "City Centre Bahrain",
+    "description": "City Centre Bahrain",
+    "icon": "images/icon-map-2.png"
+},
+{
+    "lat": "26.2374956",
+    "lng": "50.5729914",
+    "name": "Bahrain Financial Harbour",
+    "description": "Bahrain Financial Harbour",
+    "icon": "images/icon-map-2.png"
+},
+{
+    "lat": "26.2460921",
+    "lng": "50.585779",
+    "name": "The Avenues Bahrain",
+    "description": "The Avenues Bahrain",
+    "icon": "images/icon-map-2.png"
+}]

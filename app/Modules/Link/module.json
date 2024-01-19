@@ -1,0 +1,7 @@
+{
+    "name": "Link",
+    "slug": "link",
+    "version": "0.0.1",
+    "description": "This is the description for the Link module.",
+    "export": "position, name, link_type, order, status"
+}

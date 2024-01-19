@@ -1,0 +1,181 @@
+.banner {
+  background: url(../images/bn-itorama-survey.jpg) top center no-repeat;
+  margin: 50px 0 30px 0;
+  padding: 40px 0;
+  background-repeat: no-repeat;
+}
+.banner h1{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+.pd-tb{
+  padding: 10px 0;
+}
+.pd-top-6{
+  padding-top: 6px;
+}
+.panel-default-survey {
+  padding:0;
+}
+.bg-surver{
+  border:1px solid #f0f0f0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 100%;
+}
+.bg-surver-thanks{
+  border:1px solid #f0f0f0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 50px 50px;
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 100%;
+}
+.checkbox, .radio{
+  padding: 0px;
+}
+.checkbox label, .radio label{
+  padding-right: 40px;
+  padding-left: 10px;
+}
+.text-right{
+  text-align: right;
+}
+
+@keyframes click-wave {
+  0% {
+    height: 40px;
+    width: 40px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    margin-left: -80px;
+    margin-top: -80px;
+    opacity: 0;
+  }
+}
+
+.option-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  transition: all 0.15s ease-out 0s;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+  outline: none;
+}
+.option-input:hover {
+  background: #9faab7;
+}
+.option-input:checked {
+  background: #40e0d0;
+}
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+  outline: none;
+}
+
+.option-input:checked::before {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  content: '✔';
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+}
+.option-input:checked::after {
+  -webkit-animation: click-wave 0.65s;
+  -moz-animation: click-wave 0.65s;
+  animation: click-wave 0.65s;
+  background: #40e0d0;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+.option-input.radio {
+  border-radius: 50%;
+}
+.option-input.radio::after {
+  border-radius: 50%;
+}
+
+
+@media (max-width:1191px){
+  .h1, h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width:997px){
+  .text-right{
+    text-align: left;
+  }
+  .checkbox, .radio{
+    padding: 0 17px 0 0;
+  }
+  .nopadding{
+    padding: 0;
+  }
+  .bg-surver-thanks{
+    padding: 20px 20px;
+  }
+}
+@media (max-width:768px){
+  .h1, h1 {
+    font-size: 28px;
+  }
+  .checkbox, .radio {
+    display: block;
+  }
+}
+@media (max-width:480px){
+  .pull-right, .pull-left {
+      float: none!important;
+      text-align: center;
+      padding: 10px 0;
+  }
+  .banner{
+    margin: 150px 0 30px 0;
+  }
+  .h1, h1 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  .thanks.banner {
+    margin: 83px 0 30px 0;
+  }
+}
+
+@media (max-width: 348px){
+  .banner {
+      margin: 150px 0 15px 0;
+  }
+  .h1, h1 {
+    margin-top: -10px;
+}

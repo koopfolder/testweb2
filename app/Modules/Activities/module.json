@@ -1,0 +1,7 @@
+{
+    "name": "Activities",
+    "slug": "activities",
+    "version": "0.1",
+    "description": "This is the description for the Activities module.",
+    "export": "title_th, title_en, description_th, description_en, status"
+}

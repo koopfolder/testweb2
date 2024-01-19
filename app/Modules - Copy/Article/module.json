@@ -1,0 +1,7 @@
+{
+    "name": "Article",
+    "slug": "article",
+    "version": "0.1",
+    "description": "This is the description for the Article module.",
+    "export": "title_th, title_en, description_th, description_en, featured, meta_title, meta_keywords, meta_description, hit, new, status"
+}

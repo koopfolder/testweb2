@@ -1,0 +1,7 @@
+{
+    "name": "Documentsdownload",
+    "slug": "documentsdownload",
+    "version": "0.1",
+    "description": "This is the description for the Documentsdownload module.",
+    "export": "title_th, title_en, status"
+}

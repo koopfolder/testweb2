@@ -1,0 +1,7 @@
+{
+    "name": "Whatfranchise",
+    "slug": "whatfranchise",
+    "version": "0.1",
+    "description": "This is the description for the Whatfranchise module.",
+    "export": "title, description, status"
+}

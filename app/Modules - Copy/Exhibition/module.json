@@ -1,0 +1,7 @@
+{
+    "name": "Exhibition",
+    "slug": "exhibition",
+    "version": "0.1",
+    "description": "This is the description for the Exhibition module.",
+    "export": "title,status"
+}

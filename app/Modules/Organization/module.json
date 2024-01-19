@@ -1,0 +1,7 @@
+{
+    "name": "Organization",
+    "slug": "organization",
+    "version": "0.1",
+    "description": "This is the description for the Organization module.",
+    "export": "year, description_th, description_en, status"
+}

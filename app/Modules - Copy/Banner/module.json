@@ -1,0 +1,7 @@
+{
+    "name": "Banner",
+    "slug": "banner",
+    "version": "0.0.1",
+    "description": "This is the description for the Banner module.",
+    "export": "name, description, status"
+}

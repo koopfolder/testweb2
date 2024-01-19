@@ -1,0 +1,24 @@
+<table id="datatable" class="table table-bordered table-striped">
+	<thead>
+		<tr>
+			<th width="1px"></th>
+			<th>{{ trans('manager::backend.name') }}</th>
+			<th>{{ trans('manager::backend.position') }}</th>
+			<th>{{ trans('manager::backend.created') }}</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach ($revisions as $revision)
+		<tr>
+			<td></td>
+			<td>{{ $revision->name_th }}</td>
+			<td>{!! $revision->position_th !!}</td>
+			<td>{{ date('Y M, d H:i', strtotime($revision->created_at)) }}</td>
+			<td>
+				<a href="{{ route('admin.manager.reverse', $revision->id) }}" data-toggle="confirmation" data-title="Revision?" class="btn btn-primary"><i class="fa fa-undo"></i> {{ trans('manager::backend.revisions') }}</a>
+			</td>
+		</tr>
+		@endforeach
+	</tbody>
+</table>

@@ -1,0 +1,7 @@
+{
+    "name": "Recreation",
+    "slug": "recreation",
+    "version": "0.0.1",
+    "description": "This is the description for the Recreation module.",
+    "export": "name, description, timing, status, meta_title, meta_keywords, meta_description"
+}

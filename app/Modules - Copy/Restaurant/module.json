@@ -1,0 +1,7 @@
+{
+    "name": "Restaurant",
+    "slug": "restaurant",
+    "version": "0.0.1",
+    "description": "This is the description for the Restaurant module.",
+    "export": "name, description, open_hours, status, meta_title, meta_keywords, meta_description"
+}

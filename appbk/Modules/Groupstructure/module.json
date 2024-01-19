@@ -1,0 +1,7 @@
+{
+    "name": "Groupstructure",
+    "slug": "groupstructure",
+    "version": "0.1",
+    "description": "This is the description for the Groupstructure module.",
+    "export": "title_th, title_en, description_th, description_en, status"
+}

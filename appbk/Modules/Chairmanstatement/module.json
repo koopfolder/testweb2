@@ -1,0 +1,7 @@
+{
+    "name": "Chairmanstatement",
+    "slug": "chairmanstatement",
+    "version": "0.1",
+    "description": "This is the description for the Chairmanstatement module.",
+    "export": "title_th, title_en, description_th, description_en, status"
+}

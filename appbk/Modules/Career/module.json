@@ -1,0 +1,7 @@
+{
+    "name": "Career",
+    "slug": "career",
+    "version": "0.0.1",
+    "description": "This is the description for the Career module.",
+    "export": "name, file_path, status, created_at"
+}

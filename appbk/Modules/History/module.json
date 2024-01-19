@@ -1,0 +1,7 @@
+{
+    "name": "History",
+    "slug": "history",
+    "version": "0.1",
+    "description": "This is the description for the History module.",
+    "export": "year, description_th, description_en, status"
+}

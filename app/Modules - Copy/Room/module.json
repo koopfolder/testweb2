@@ -1,0 +1,7 @@
+{
+    "name": "Room",
+    "slug": "room",
+    "version": "0.1",
+    "description": "This is the description for the Room module.",
+    "export": "name, description, features, amenities, other_features, layout, booking_type, status, meta_title, meta_keywords, meta_description"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Thing",
+    "slug": "thing",
+    "version": "0.0.1",
+    "description": "This is the description for the Thing module.",
+    "export": "name, phone, description, status"
+}

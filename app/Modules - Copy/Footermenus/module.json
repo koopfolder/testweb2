@@ -1,0 +1,7 @@
+{
+    "name": "Footermenus",
+    "slug": "footermenus",
+    "version": "0.0.1",
+    "description": "This is the description for the Footermenus module.",
+    "export": "name_th, name_en, link_type, url_internal, url_external, description_th, description_en, target, order, status"
+}

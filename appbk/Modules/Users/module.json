@@ -1,0 +1,7 @@
+{
+    "name": "Users",
+    "slug": "users",
+    "version": "0.0.1",
+    "description": "This is the description for the Users module.",
+    "export": "name, email, status, created_at,phone"
+}

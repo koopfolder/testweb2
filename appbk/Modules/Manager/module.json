@@ -1,0 +1,8 @@
+{
+    "name": "Manager",
+    "slug": "manager",
+    "version": "0.1",
+    "description": "This is the description for the Manager module.",
+    "export": "name_th, name_en, position_th, position_en, categories_id, bord_and_management_type, order, status",
+    "export_categories":"name_th, name_en, position_th, position_en, categories_id, bord_and_management_type, order, status"
+}
